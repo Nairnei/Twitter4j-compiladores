@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ro/.gradle/caches/modules-2/files-2.1/org.twitter4j/twitter4j-core/4.0.2/6555e7c45f5db0006823731b2ddb536d481e11d1/twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6555e7c45f5db0006823731b2ddb536d481e11d1">
+        <dex dex="/home/ro/Compiladores/atividade-extra2/compiladores/app/build/intermediates/pre-dexed/debug/twitter4j-core-4.0.2_ca2bcbc5e7bc61d86be73e1bcf034c05c84c1b27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ro/.android/build-cache/feaa6527f410bc0e9b8feb8b7b2059b0b9a53327/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="/home/ro/Compiladores/atividade-extra2/compiladores/app/build/intermediates/pre-dexed/debug/classes_c0da1da2d9a1544a327afe8660a9294cc6c9b687.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ro/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.1/constraint-layout-solver-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="/home/ro/Compiladores/atividade-extra2/compiladores/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.1_23b194dc640febc6785ac737a00d7114ea8abed8.jar" />
+    </item>
+
+</items>

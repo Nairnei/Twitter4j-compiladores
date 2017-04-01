@@ -1,21 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.rodrigonairnei.tweet.MainActivity">
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/buttonText"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.139"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.066" />
+        android:orientation="horizontal">
 
-</android.support.constraint.ConstraintLayout>
+        <EditText
+            android:id="@+id/editTexTAssunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Ex: #Zelda , #BCC"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextQuantidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="ex: 10, 100. 100"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ButtonPesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/TableTweets"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/buttonTXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="gerarTXT" />
+
+            <Button
+                android:id="@+id/buttonEnviarTXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EnviarTXT" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
